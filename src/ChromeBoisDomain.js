@@ -11,9 +11,9 @@ export default class ChromeBoisDomain extends Component {
   }
 
   keyPressed = (event) => {
-    if(event.key == 'a'){
+    if(event.key === 'a'){
       resize('+'); //was having error b/c not in quotes!
-    } else if (event.key == 's') {
+    } else if (event.key === 's') {
       resize('-');
     }
   }
